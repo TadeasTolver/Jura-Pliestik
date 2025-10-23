@@ -435,7 +435,7 @@ const renderSculptures = () => {
     sculptures.forEach((sculpture, index) => {
       const html = `
         <div class="artwork">
-          <img src="${sculpture.img}" id="img-${String(index).padStart(2,"0")}"></img>
+          <img src="${sculpture.img}" id="img-${String(index).padStart(2,"0")}" loading="lazy"></img>
           <h4 id="h-${String(index).padStart(2,"0")}">${(localStorage.getItem("lang") === "en") ? sculpture.enHeading : sculpture.czHeading}</h4>
           <p id="p-${String(index).padStart(2,"0")}">${(localStorage.getItem("lang") === "en") ? sculpture.enText : sculpture.czText}</p>
         </div>`;
