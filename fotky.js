@@ -681,7 +681,7 @@ const renderPhotos = () => {
   photos.forEach((photo, index) => {
     const html = `
       <div class="artwork">
-        <img src="${photo.img}" id="img-${String(index).padStart(2,"0")}"></img>
+        <img src="${photo.img}" id="img-${String(index).padStart(2,"0")}" loading="lazy"></img>
         <h4 id="h-${String(index).padStart(2,"0")}">${(localStorage.getItem("lang") === "en") ? photo.enHeading : photo.czHeading}</h4>
         <p id="p-${String(index).padStart(2,"0")}">${(localStorage.getItem("lang") === "en") ? photo.enText : photo.czText}</p>
       </div>`;
