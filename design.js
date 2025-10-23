@@ -198,7 +198,7 @@ window.renderDesigns = () => {
   designs.forEach((design, index) => {
     designCon.innerHTML += `
       <div class="artwork">
-        <img src="${design.img}" id="img-${String(index).padStart(2,"0")}"></img>
+        <img src="${design.img}" id="img-${String(index).padStart(2,"0")}" loading="lazy"></img>
         <h4 id="h-${String(index).padStart(2,"0")}">${(localStorage.getItem("lang") === "en") ? design.enHeading : design.czHeading}</h4>
         <p id="p-${String(index).padStart(2,"0")}">${(localStorage.getItem("lang") === "en") ? design.enText : design.czText}</p>
       </div>`;
