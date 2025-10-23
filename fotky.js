@@ -14,7 +14,7 @@ export const photos = [
     czText: "Český umělec a kurátor.",
     subTopic: "tvarearuce"
   }, {
-    img: "fotky/orel 2.jpg",
+    img: "fotky/orel 2.JPG",
     enHeading: "Jakub Orel, Marienka, and Matyáš",
     enText: "",
     czHeading: "Jakub Orel, Marienka a Matyáš",
@@ -28,14 +28,14 @@ export const photos = [
     czText: "",
     subTopic: "tvarearuce"
   }, {
-    img: "fotky/rohde.jpg",
+    img: "fotky/rohde.JPG",
     enHeading: "",
     enText: "Danish collector of prehistoric tools.",
     czHeading: "",
     czText: "Dánský sběratel prehistorických nástrojů.",
     subTopic: "tvarearuce"
   }, {
-    img: "fotky/malene.jpg",
+    img: "fotky/malene.JPG",
     enHeading: "",
     enText: "Danish photographer.",
     czHeading: "",
@@ -63,7 +63,7 @@ export const photos = [
     czText: "Český malíř.",
     subTopic: "tvarearuce"
   }, {
-    img: "fotky/chirico.jpg",
+    img: "fotky/chirico.JPG",
     enHeading: "David Chirico",
     enText: "English lawyer.",
     czHeading: "David Chirico",
@@ -77,7 +77,7 @@ export const photos = [
     czText: "Český matematik a filozof.",
     subTopic: "tvarearuce"
   }, {
-    img: "fotky/michael - lucia.jpg",
+    img: "fotky/michael - lucia.JPG",
     enHeading: "Michael and Lucia",
     enText: "Italian photographer and his wife.",
     czHeading: "Michael a Lucia",
@@ -91,7 +91,7 @@ export const photos = [
     czText: "Česká architektka.",
     subTopic: "tvarearuce"
   }, {
-    img: "fotky/hank - jaime.jpg",
+    img: "fotky/hank - jaime.JPG",
     enHeading: "Hank and Jaime Pascual",
     enText: "Dutch translator, Hank, and Spanish car mechanic, Jaime Pascual.",
     czHeading: "Hank a Jaime Pascual",
@@ -105,28 +105,28 @@ export const photos = [
     czText: "Britský bankovní poradce.",
     subTopic: "tvarearuce"
   }, {
-    img: "fotky/gynekolove z londyna.jpg",
+    img: "fotky/gynekolove z londyna.JPG",
     enHeading: "My friend's parents, gynecologists from London.",
     enText: "",
     czHeading: "Rodiče mé kamarádky, gynekologové z Londýna.",
     czText: "",
     subTopic: "tvarearuce"
   }, {
-    img: "fotky/kuzmack.jpg",
+    img: "fotky/kuzmack.JPG",
     enHeading: "Mark Kuzmack",
     enText: "American Search Engine Optimization Consultant, investor, and writer.",
     czHeading: "Mark Kuzmack",
     czText: "Americký konzultant pro optimalizaci vyhledávání, investor a spisovatel.",
     subTopic: "tvarearuce"
   }, {
-    img: "fotky/snezana - vychrena.jpg",
+    img: "fotky/snezana - vychrena.JPG",
     enHeading: "Bulgarian sisters Sněžana and Vichrena.",
     enText: "",
     czHeading: "Bulharské sestrz Sněžana a Vichrena.",
     czText: "",
     subTopic: "tvarearuce"
   }, {
-    img: "fotky/spotishwood.jpg",
+    img: "fotky/spotishwood.JPG",
     enHeading: "Tracy Spotishwood",
     enText: "Welsh actress, film director, and script writer.",
     czHeading: "Tracy Spotishwood",
@@ -140,7 +140,7 @@ export const photos = [
     czText: "",
     subTopic: "tvarearuce"
   }, {
-    img: "fotky/moravec.jpg",
+    img: "fotky/moravec.JPG",
     enHeading: "Dan Moravec",
     enText: "Czech journalist.",
     czHeading: "Dan Moravec",
@@ -190,28 +190,28 @@ export const photos = [
     czText: "",
     subTopic: "zatisi"
   }, {
-    img: "fotky/sklo 3.jpg",
+    img: "fotky/sklo 3.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "zatisi"
   }, {
-    img: "fotky/sklo 4.jpg",
+    img: "fotky/sklo 4.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "zatisi"
   }, {
-    img: "fotky/sklo 5.jpg",
+    img: "fotky/sklo 5.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "zatisi"
   }, {
-    img: "fotky/sklo 6.jpg",
+    img: "fotky/sklo 6.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
@@ -232,7 +232,7 @@ export const photos = [
     czText: "",
     subTopic: "zatisi"
   }, {
-    img: "fotky/sklo 9.jpg",
+    img: "fotky/sklo 9.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
@@ -260,7 +260,7 @@ export const photos = [
     czText: "",
     subTopic: "zatisi"
   }, {
-    img: "fotky/kytka 2.jpg",
+    img: "fotky/kytka 2.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
@@ -281,7 +281,7 @@ export const photos = [
     czText: "",
     subTopic: "zatisi"
   }, {
-    img: "fotky/letadlo.jpg",
+    img: "fotky/letadlo.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
@@ -302,84 +302,84 @@ export const photos = [
     czText: "",
     subTopic: "zatisi"
   }, {
-    img: "fotky/krajina.jpg",
+    img: "fotky/krajina.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "krajiny"
   }, {
-    img: "fotky/krajina 2.jpg",
+    img: "fotky/krajina 2.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "krajiny"
   }, {
-    img: "fotky/krajina 3.jpg",
+    img: "fotky/krajina 3.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "krajiny"
   }, {
-    img: "fotky/krajina 4.jpg",
+    img: "fotky/krajina 4.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "krajiny"
   }, {
-    img: "fotky/krajina 5.jpg",
+    img: "fotky/krajina 5.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "krajiny"
   }, {
-    img: "fotky/krajina 6.jpg",
+    img: "fotky/krajina 6.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "krajiny"
   }, {
-    img: "fotky/krajina 8.jpg",
+    img: "fotky/krajina 8.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "krajiny"
   }, {
-    img: "fotky/krajina 9.jpg",
+    img: "fotky/krajina 9.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "krajiny"
   }, {
-    img: "fotky/krajina 10.jpg",
+    img: "fotky/krajina 10.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "krajiny"
   }, {
-    img: "fotky/krajina 11.jpg",
+    img: "fotky/krajina 11.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "krajiny"
   }, {
-    img: "fotky/krajina 12.jpg",
+    img: "fotky/krajina 12.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "krajiny"
   }, {
-    img: "fotky/krajina 13.jpg",
+    img: "fotky/krajina 13.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
@@ -414,7 +414,7 @@ export const photos = [
     czText: "",
     subTopic: "hudba"    
   }, {
-    img: "fotky/divadlo 4.jpg",
+    img: "fotky/divadlo 4.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
@@ -443,70 +443,70 @@ export const photos = [
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/koncert 2.jpg",
+    img: "fotky/koncert 2.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/koncert 3.jpg",
+    img: "fotky/koncert 3.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/koncert 4.jpg",
+    img: "fotky/koncert 4.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/koncert 5.jpg",
+    img: "fotky/koncert 5.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/koncert 6.jpg",
+    img: "fotky/koncert 6.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/koncert 7.jpg",
+    img: "fotky/koncert 7.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/koncert 8.jpg",
+    img: "fotky/koncert 8.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/koncert 11.jpg",
+    img: "fotky/koncert 11.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/koncert 12.jpg",
+    img: "fotky/koncert 12.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/koncert 13.jpg",
+    img: "fotky/koncert 13.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
@@ -527,14 +527,14 @@ export const photos = [
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/fuck 2.jpg",
+    img: "fotky/fuck 2.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/fuck 3.jpg",
+    img: "fotky/fuck 3.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
