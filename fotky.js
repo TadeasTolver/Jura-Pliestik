@@ -513,7 +513,7 @@ export const photos = [
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/koncert 14.jpg",
+    img: "fotky/koncert 14.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
@@ -522,7 +522,7 @@ export const photos = [
   }, {
     img: "fotky/fuck.jpg",
     enHeading: "",
-    enText: "British du: Fuck Buttons, festival Roskilde, Denmark.",
+    enText: "British duo: Fuck Buttons, festival Roskilde, Denmark.",
     czHeading: "Britské duo: Fuck Buttons, festival Roskilde, Dánsko.",
     czText: "",
     subTopic: "hudba"
@@ -541,14 +541,14 @@ export const photos = [
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/fuck 4.jpg",
+    img: "fotky/fuck 4.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/fuck 5.jpg",
+    img: "fotky/fuck 5.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
