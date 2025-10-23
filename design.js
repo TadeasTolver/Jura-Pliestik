@@ -28,19 +28,19 @@ export const designs = [
     czHeading: "",
     czText: "",
   }, {
-    img: "designy/mriz skica.jpg",
+    img: "designy/mriz skica.JPG",
     enHeading: "Sketch of gate",
     enText: "",
     czHeading: "Skica brány",
     czText: "",
   }, {
-    img: "designy/mriz.jpg",
+    img: "designy/mriz.JPG",
     enHeading: "High grass gate",
     enText: "Wrought iron.",
     czHeading: "Brána vysoká tráva",
     czText: "Kované železo.",
   }, {
-    img: "designy/trencin 1.jpeg",
+    img: "designy/trencin 1.JPEG",
     enHeading: "Fountain in Trenčín",
     enText: "2018. Bronze. 4m x 8m.",
     czHeading: "Kašna v Trenčíně.",
@@ -52,7 +52,7 @@ export const designs = [
     czHeading: "",
     czText: "",
   }, {
-    img: "designy/trencin 3.jpg",
+    img: "designy/trencin 3.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
@@ -64,7 +64,7 @@ export const designs = [
     czHeading: "Skica k ceně VIZE 97",
     czText: "",
   }, {
-    img: "designy/vize 97 2.jpeg",
+    img: "designy/vize 97 2.JPEG",
     enHeading: "",
     enText: "",
     czHeading: "",
@@ -82,25 +82,25 @@ export const designs = [
     czHeading: "Českě velvyslanectví v Lucembursku.",
     czText: "",
   }, {
-    img: "designy/ostrava 5.jpg",
+    img: "designy/ostrava 5.JPG",
     enHeading: "Fountain on Masarykovo náměstí, Ostrava",
     enText: "Bronze. 0.5m x 25m.",
     czHeading: "Fontána Masarykovo náměstí, Ostrava",
     czText: "Bronz. 0.5m x 25m.",
   }, {
-    img: "designy/ostrava 1.jpg",
+    img: "designy/ostrava 1.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
   }, {
-    img: "designy/ostrava 4.jpg",
+    img: "designy/ostrava 4.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
   }, {
-    img: "designy/keramicke modely.jpg",
+    img: "designy/keramicke modely.JPG",
     enHeading: "Sketches for fountain",
     enText: "Fired ceramics.",
     czHeading: "Skicy k fontáně",
@@ -118,7 +118,7 @@ export const designs = [
     czHeading: "",
     czText: "",
   }, {
-    img: "designy/hrob 3.jpg",
+    img: "designy/hrob 3.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
@@ -166,7 +166,7 @@ export const designs = [
     czHeading: "Nehmatatelná postava",
     czText: "Skica k soše. Suchá jehla.",
   }, {
-    img: "designy/skicy.jpg",
+    img: "designy/skicy.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
@@ -178,7 +178,7 @@ export const designs = [
     czHeading: "Vizualizace",
     czText: "",
   }, {
-    img: "designy/novy jimramov.jpg",
+    img: "designy/novy jimramov.JPG",
     enHeading: "Playground for kids",
     enText: "Branches and jute. Height: 3 m. Nový Jimramov 2023.",
     czHeading: "Lezení pro děti.",
