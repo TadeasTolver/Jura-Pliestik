@@ -184,7 +184,7 @@ export const designs = [
     czHeading: "Lezení pro děti.",
     czText: "Větve a juta. V: 3m. Nový Jimramov 2023.",
   }, {
-    img: "designy/slavnikovec.jpg",
+    img: "designy/slavnikovec.JPG",
     enHeading: "",
     enText: "",
     czHeading: "",
