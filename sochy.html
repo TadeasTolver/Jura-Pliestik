@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+
+  <title>Jiří Plieštik</title>
+  <meta name="description" content="Jiří Plieštik, sculptor and photographer."/>
+  <meta name="author" content="Jiří Plieštik"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8"/> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+  <link rel="icon" href="j.png">
+
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+  <body id="sochy">
+    <div id="navigation">
+      <h2 id="name-heading"><a href="index.html">JIŘÍ <span style="font-size: 80%;">"JURA"</span> PLIEŠTIK</a></h2>
+      <div id="site-links">
+        <a href="sochy.html" style="text-decoration: underline 2px #32a87f">Sochy,</a>
+        <a href="design.html">design,</a>
+        <a href="fotky.html">fotografie,</a>
+        <a href="texty.html">texty.</a>
+        
+        <div id="language-btns">
+          <button id="cz-btn" onclick="changeToCz()"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"/></button>
+          <button id="en-btn" onclick="changeToEn()"><img src="englando.png"/></button>
+        </div>
+      </div>
+      <button id="menu-btn">☰</button>
+    </div>
+
+    <div id="img-viewer">
+      <div id="buttons-and-img">
+        <button onclick="previousImg()">‹</button>
+        <img src="https://www.sportsnet.ca/wp-content/uploads/2025/02/pastrnak_david1280-768x432.jpg"/>
+        <button onclick="nextImg()">›</button>
+      </div>
+      <h3></h3>
+      <p></p>
+    </div>
+
+    <h2 class="heading">Sochy</h2>
+    <div id="sub-topic-links">
+      <a href="#sculptures-1-heading">Sochy ↓</a>
+      <a href="#sculptures-2-heading">Portréty ↓</a>
+      <a href="#sculptures-3-heading">Kresby před studiu na AVU ↓</a>
+    </div>
+
+    <h3 id="sculptures-1-heading" class="sub-topic-heading"></h3>
+
+    <a href="sochy/do ticha vchazeti.pdf" target="_blank" class="pdf-link"><span>DO TICHA VCHÁZETI (PDF)</span> →</a>
+
+    <div id="sculptures-1" class="sub-topic">
+    </div>
+
+    <h3 id="sculptures-2-heading" class="sub-topic-heading">Portréty</h3>
+    <div id="sculptures-2" class="sub-topic">
+
+    </div>
+
+    <h3 id="sculptures-3-heading" class="sub-topic-heading">Kresby před studiu na AVU</h3>
+    <div id="sculptures-3" class="sub-topic">
+      
+    </div>
+
+  </body>
+  <script src="sochy.js" type="module" defer></script>
+  <script src="script.js" type="module" defer></script>
+</html>

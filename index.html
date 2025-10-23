@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Asimovian&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+  <title>Jiří Plieštik</title>
+  <meta name="description" content="Jiří Plieštik, sculptor and photographer."/>
+  <meta name="author" content="Jiří Plieštik"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="icon" href="j.png">
+
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="index.css"/>
+</head>
+  <body id="index">
+    <div id="about-me">
+      <h3>O mě</h3>
+      <p>
+        Jiří Plieštik (nar. 28. června 1956 v Novém Městě na Moravě) je český sochař, fotograf, designer, básník a pedagog. Studoval na AVU (1981–87), působil na AVU a na Samsø Højskole v Dánsku. Od roku 2000 je nezávislým umělcem s řadou realizací v ČR i zahraničí.
+      </p>
+      <img src="https://www.horackagalerie.cz/image.php?nid=8046&oid=4458752&width=260&height=248"/>
+    </div>
+
+    <div id="navigation">
+      <h2 id="name-heading"><a href="index.html">JIŘÍ <span style="font-size: 80%;">"JURA"</span> PLIEŠTIK</a></h2>
+      <div id="site-links">
+        <a href="sochy.html">Sochy,</a>
+        <a href="design.html">design,</a>
+        <a href="fotky.html">fotografie,</a>
+        <a href="texty.html">texty.</a>
+        <div id="language-btns">
+          <button id="cz-btn" onclick="changeToCz()"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"></img></button>
+          <button id="en-btn" onclick="changeToEn()"><img src="englando.png"></img></button>
+        </div>
+      </div>
+      <button id="menu-btn">☰</button>
+    </div>
+
+    <img id="main-img" src="main photo.jpg">
+
+    <footer>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;juraplie@gmail.com</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;+420 602 626 755</h3>
+        <h3><a id="facebook-link" href="https://www.facebook.com/jura.pliestik/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" id="facebook-img"/> Jura Pliestik</a></h3>
+        <h3 id="bio-link" onclick="openBio();">↗ &nbsp;O MĚ</h3>
+    </footer>
+
+    <a id="signature"><span id="circle"></span>&nbspSTRÁNKY VYTVOŘIL: &nbsp<span id="name">TADEÁŠ PLIEŠTIK</span></a>
+  </body>
+  <script src="script.js" type="module"></script>
+</html>

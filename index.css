@@ -1,0 +1,127 @@
+#name-heading {
+    font-weight: 400;
+}
+
+#main-img {
+    margin-top: 50px;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+#about-me {
+    display: none;
+    height: fit-content;/*350px;*/
+    width: 95vw;
+    position: absolute;
+    left: 2.5vw;
+    background-color: red;
+    z-index: 100;
+    background-color: black;
+    color: white;
+    border-radius: 0 0 1vw 1vw;
+    box-shadow: 0px 0px 5px 5px rgb(86, 84, 84);
+}
+
+#about-me h3 {
+    font-weight: 600;
+    margin-left: 2.5vw;
+    margin-top: 2.5vw;
+    width: fit-content;
+}
+
+#about-me p {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    max-width: 500px; 
+}
+
+#about-me img {
+    width: 150px;
+    height: 150px;
+    margin-left: 2.5vw;
+    margin-top: 10px;
+    margin-bottom: 2vw;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 30px;
+    height: 170px;
+    width: 100vw;
+    background-color: #cecece;
+    border-top: 1px solid #747474;
+    color: rgb(71, 71, 71);
+}
+
+footer h3 {
+    margin-left: 5vw;
+    width: fit-content;
+    font-weight: 400;
+}
+
+#facebook-link {
+    color: rgb(71, 71, 71);
+    text-decoration: underline;
+}
+
+#facebook-img {
+    height: 21px;
+    width: 21px;
+}
+
+#bio-link {
+    cursor: pointer;
+}
+
+#signature {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 95vw;
+    height: 5vh;
+    padding-left: 5vw;
+    border-top: 1px dotted #747474;
+    background-color: #cecece;
+    font-family: "Asimovian";
+    cursor: default;
+    overflow-y: hidden;
+    line-height: 0.9;
+    text-align: center;
+}
+
+#signature #name {
+    font-family: "Russo One";
+    transition: 0.5s transform linear, 0.5s text-shadow linear, 0.5s color linear;
+    z-index: 1;
+}
+
+#signature #circle {
+    height: 20%;
+    aspect-ratio: 1/1;
+    background-color: #13752d;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    transition: 0.5s transform linear;
+}
+
+
+@media (min-width: 655px) {
+    #signature #name:hover {
+        transform: translateX(20px); 
+        text-shadow: 2px 2px 5px #13752d;
+        color: black;
+    }
+
+    #signature #circle:hover {
+        transform: translateX(-20px); 
+    }
+}
