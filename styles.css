@@ -20,6 +20,11 @@ a {
     text-decoration: none;
 }
 
+button {
+    color: black;
+    padding: 0;
+}
+
 #navigation {
     position: fixed;
     width: 100vw;
@@ -232,7 +237,6 @@ p {
     font-weight: 600;
     font-size: 120%;
 }
-
 
 .text {
     width: 100%;
