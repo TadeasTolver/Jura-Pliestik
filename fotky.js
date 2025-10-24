@@ -527,14 +527,14 @@ export const photos = [
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/fuck 2.JPG",
+    img: "fotky/fuck 2.jpg",
     enHeading: "",
     enText: "",
     czHeading: "",
     czText: "",
     subTopic: "hudba"
   }, {
-    img: "fotky/fuck 3.JPG",
+    img: "fotky/fuck 3.jpg",
     enHeading: "",
     enText: "",
     czHeading: "",
