@@ -1,10 +1,3 @@
-#name-heading {
-    font-weight: 300;
-    margin-left: 3vw;
-    margin-right: 3vw;
-}
-
-
 body {
     margin: 0;
     padding: 0;
@@ -13,15 +6,18 @@ body {
     align-items: left;
     font-family: "Raleway";
     color: rgb(48, 48, 48);
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+#name-heading {
+    font-weight: 300;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
 a {
     text-decoration: none;
-}
-
-button {
-    appearance: none;
-    -webkit-appearance: none;
 }
 
 #navigation {
