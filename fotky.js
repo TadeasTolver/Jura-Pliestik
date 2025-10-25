@@ -122,7 +122,7 @@ export const photos = [
     img: "fotky/snezana - vychrena.JPG",
     enHeading: "Bulgarian sisters Sněžana and Vichrena.",
     enText: "",
-    czHeading: "Bulharské sestrz Sněžana a Vichrena.",
+    czHeading: "Bulharské sestry Sněžana a Vichrena.",
     czText: "",
     subTopic: "tvarearuce"
   }, {
@@ -155,10 +155,10 @@ export const photos = [
     subTopic: "tvarearuce"
   }, {
     img: "fotky/ungrova - unger.jpg",
-    enHeading: "Bára Ungrová and Jan Unger",
-    enText: 'Leader of the band "Zrní", Jan Unger, and main musician of the "Duo" band, Bára Ungrová.',
-    czHeading: "Bára Ungrová a Jan Unger",
-    czText: "Vůdce kapely Zrní, Jan Unger, a hlavní hudebnice kapely Duo.",
+    enHeading: "Jan Unger and Bára Ungrová",
+    enText: 'Frontmen of "Zrní" and "Duo" band.',
+    czHeading: "Jan Unger a Bára Ungrová",
+    czText: "Frontmani kapely Zrní a kapely Duo.",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/slivova.jpg",
@@ -177,9 +177,9 @@ export const photos = [
   }, {
     img: "fotky/sonntag.jpg",
     enHeading: "Tom Sonntag",
-    enText: "Finnish pianist",
+    enText: "Finnish pianist, experimenter and composer.",
     czHeading: "Tom Sonntag",
-    czText: "Finský pianista",
+    czText: "Finský pianista, experimentátor a skladatel.",
     subTopic: "tvarearuce"
   },
   {
@@ -394,9 +394,9 @@ export const photos = [
     subTopic: "krajiny"
   }, {
     img: "fotky/divadlo.jpg",
-    enHeading: "Hadivadlo, Brno",
+    enHeading: "",
     enText: "",
-    czHeading: "Hadivadlo, Brno",
+    czHeading: "",
     czText: "",
     subTopic: "hudba"    
   }, {
@@ -522,8 +522,8 @@ export const photos = [
   }, {
     img: "fotky/fuck.jpg",
     enHeading: "",
-    enText: "British duo: Fuck Buttons, festival Roskilde, Denmark.",
-    czHeading: "Britské duo: Fuck Buttons, festival Roskilde, Dánsko.",
+    enText: "British duo: The Fuck Buttons, festival Roskilde, Denmark.",
+    czHeading: "Britské duo: The Fuck Buttons, festival Roskilde, Dánsko.",
     czText: "",
     subTopic: "hudba"
   }, {
