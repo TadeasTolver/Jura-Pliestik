@@ -15,8 +15,8 @@ let imgViewerImgId;
 
 const renderImgViewer = () => {
     document.querySelector("#img-viewer img").src = document.querySelector(`#img-${imgViewerImgId}`).src;
-    document.querySelector("#img-viewer h3").innerText = document.querySelector(`#h-${imgViewerImgId}`).innerHTML;
-    document.querySelector("#img-viewer p").innerText = document.querySelector(`#p-${imgViewerImgId}`).innerHTML;
+    document.querySelector("#img-viewer h3").innerHTML = document.querySelector(`#h-${imgViewerImgId}`).innerHTML;
+    document.querySelector("#img-viewer p").innerHTML = document.querySelector(`#p-${imgViewerImgId}`).innerHTML;
     document.body.style.overflow = "hidden";
 }
 
@@ -59,16 +59,16 @@ window.nextImg = () => {
 
 
 document.querySelector("#menu-btn").addEventListener("click", () => { // expand or close menu when clicked on menu button,
-    if (document.querySelector("#menu-btn").innerText === "☰") {
+    if (document.querySelector("#menu-btn").innerHTML === "☰") {
         document.querySelector("#name-heading").style.display = "none";
         document.querySelector("#site-links").style.display = "flex";
         document.querySelector("#language-btns").style.display = "flex";
-        document.querySelector("#menu-btn").innerText = "×";
+        document.querySelector("#menu-btn").innerHTML = "×";
     } else {
         document.querySelector("#name-heading").style.display = "block";
         document.querySelector("#site-links").style.display = "none";
         document.querySelector("#language-btns").style.display = "none";
-        document.querySelector("#menu-btn").innerText = "☰";
+        document.querySelector("#menu-btn").innerHTML = "☰";
     }
 });
 
@@ -79,9 +79,9 @@ window.changeToCz = () => {
     document.querySelector("#cz-btn").style.border = "2px solid #32a87f";
     document.querySelector("#cz-btn").style.outline = "0.5px solid black";
     document.querySelector("#en-btn").style.outline = "none";
-    document.querySelector("#site-links :nth-child(1)").innerText = `Sochy, `;
-    document.querySelector("#site-links :nth-child(3)").innerText = `fotografie, `;
-    document.querySelector("#site-links :nth-child(4)").innerText = `texty.`;
+    document.querySelector("#site-links :nth-child(1)").innerHTML = `Sochy, `;
+    document.querySelector("#site-links :nth-child(3)").innerHTML = `fotografie, `;
+    document.querySelector("#site-links :nth-child(4)").innerHTML = `texty.`;
 
     if (pageId === "index") {
         document.querySelector("#bio-link").innerHTML = "↗ &nbsp;O MĚ";
@@ -109,9 +109,9 @@ window.changeToEn = () => {
     document.querySelector("#en-btn").style.border = "2px solid #32a87f";
     document.querySelector("#en-btn").style.outline = "0.5px solid black";
     document.querySelector("#cz-btn").style.outline = "none";
-    document.querySelector("#site-links :nth-child(1)").innerText = `Sculptures, `;
-    document.querySelector("#site-links :nth-child(3)").innerText = `photographs, `;
-    document.querySelector("#site-links :nth-child(4)").innerText = `texts.`;
+    document.querySelector("#site-links :nth-child(1)").innerHTML = `Sculptures, `;
+    document.querySelector("#site-links :nth-child(3)").innerHTML = `photographs, `;
+    document.querySelector("#site-links :nth-child(4)").innerHTML = `texts.`;
 
     if (pageId === "index") {
         document.querySelector("#bio-link").innerHTML = "↗ &nbsp;ABOUT ME";
