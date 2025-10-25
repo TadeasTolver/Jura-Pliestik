@@ -179,7 +179,13 @@ export const sculptures = [
     enText: "Žďár n. Sázavou.",
     czHeading: "Pomník pro vynálezce síťovky Vavřína Krčila",
     czText: "Žďár n. Sázavou.",
-  },  {
+  }, {
+    img: "sitovka 2.jpg",
+    enHeading: "",
+    enText: "",
+    czHeading: "",
+    czText: "",
+  }, {
     img: "sochy/trumpetak.JPG",
     enHeading: "Trumpet player",
     enText: "",
