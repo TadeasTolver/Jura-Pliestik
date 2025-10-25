@@ -225,6 +225,10 @@ p {
     cursor: pointer;
 }
 
+.artwork-link {
+    color: rgb(48, 48, 48);
+    text-decoration: underline;
+}
 
 .text-artwork {
     width: clamp(200px, 95vw, 600px);
