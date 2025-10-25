@@ -475,9 +475,9 @@ window.changeSculpturesToCz = () => {
   document.querySelector(".heading").innerText = "Sochy";
   document.querySelector("#sub-topic-links :nth-child(1)").innerText = "Sochy ↓";
   document.querySelector("#sub-topic-links :nth-child(2)").innerText = "Portréty ↓";
-  document.querySelector("#sub-topic-links :nth-child(3)").innerText = "Kresby před studiu na AVU ↓";
+  document.querySelector("#sub-topic-links :nth-child(3)").innerText = "Kresby z vojny, před studiem na AVU ↓";
   document.querySelector("#sculptures-2-heading").innerText = "Portréty";
-  document.querySelector("#sculptures-3-heading").innerText = "Kresby před studiu na AVU";
+  document.querySelector("#sculptures-3-heading").innerText = "Kresby z vojny, před studiem na AVU";
   renderSculptures();
 }
 
@@ -485,9 +485,9 @@ window.changeSculpturesToEn = () => {
   document.querySelector(".heading").innerText = "Sculptures";
   document.querySelector("#sub-topic-links :nth-child(1)").innerText = "Sculptures ↓";
   document.querySelector("#sub-topic-links :nth-child(2)").innerText = "Portraits ↓";
-  document.querySelector("#sub-topic-links :nth-child(3)").innerText = "Drawings from before AVU ↓";
+  document.querySelector("#sub-topic-links :nth-child(3)").innerText = "Drawings from the military service, before studying art school ↓";
   document.querySelector("#sculptures-2-heading").innerText = "Portraits";
-  document.querySelector("#sculptures-3-heading").innerText = "Drawings from before AVU";
+  document.querySelector("#sculptures-3-heading").innerText = "Drawings from the military service, before studying art school";
 
 
   renderSculptures();
