@@ -33,7 +33,7 @@ export const texts = [
     subTopic: "parnas"
   }, {
     heading: 'Na staré lodi se kolébáme',
-    text: 'Rzivé dunění<br>přídě o vlny<br>rozléhá se<br>dutým břichem lodi <br>i po pláni <br>tmoucího se moře<br><br>Bachratice<br>stářím a únavou <br>vykloněná v bok <br>pomalu  rdousí motory <br>aby z nich vymáčkla <br>poslední výdechy <br>a doplula na ostrov<br>všech přání<br><br>Vítr utichá<br>světlo zablesklo<br>První rackové<br>rozstříkli břichem<br>hřebeny traktovaných vln<br><br>13. 11. 1994, cesta na KRETU',
+    text: 'Rzivé dunění<br>přídě o vlny<br>rozléhá se<br>dutým břichem lodi <br>i po pláni <br>tmoucího se moře<br><br>Bachratice<br>stářím a únavou <br>vykloněná v bok <br>pomalu  rdousí motory <br>aby z nich vymáčkla <br>poslední výdechy <br>a doplula na ostrov<br>všech přání<br><br>Vítr utichá<br>světlo zablesklo<br>První rackové<br>rozstříkli břichem<br>hřebeny traktovaných vln<br><br>13. 11. 1994, cesta na Krétu.',
     imgs: [],
     subTopic: "parnas"
   }, {
