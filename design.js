@@ -18,9 +18,9 @@ export const designs = [
   }, {
     img: "designy/hg modra.jpg",
     enHeading: "High grass bookcase",
-    enText: "Glued plywood, 2014. Bronze winner A'DESIGN AWARD.",
+    enText: `Glued plywood, 2014. Bronze winner <a href="https://competition.adesignaward.com/ada-winner-design.php?ID=34200" class="artwork-link">A'DESIGN AWARD</a>.`,
     czHeading: "Knihovna vysoká tráva.",
-    czText: "Lepená překliška, 2014. Bronze winner A'DESIGN AWARD.",
+    czText: `Lepená překliška, 2014. Bronze winner <a href="https://competition.adesignaward.com/ada-winner-design.php?ID=34200" class="artwork-link">A'DESIGN AWARD</a>.`,
   }, {
     img: "designy/hg cerna.jpg",
     enHeading: "",
