@@ -19,9 +19,9 @@ export const sculptures = [
     czText: "Dejvické náměstí, Praha 6.",
   }, {
     img: "sochy/kolektivizace.JPG",
-    enHeading: "Memorial to victims in agriculture under communistic dictatorship",
+    enHeading: "Memorial to victims in agriculture under communistic regime",
     enText: "Prague 1.",
-    czHeading: "Památník objetem kolektivizace v zemědělství v domě komunismu",
+    czHeading: "Památník obětem kolektivizace v zemědělství v době komunismu",
     czText: "Praha 1.",
   }, {
     img: "sochy/nehmatatelna nmnm.JPG",
@@ -145,10 +145,10 @@ export const sculptures = [
     czText: "",
   }, {
     img: "sochy/beroun.jpg",
-    enHeading: "Beroun",
-    enText: "",
-    czHeading: "Beroun",
-    czText: "",
+    enHeading: "Ithaka",
+    enText: "Beroun",
+    czHeading: "Ithaka",
+    czText: "Beroun",
   }, {
     img: "sochy/ze zaseri.JPG",
     enHeading: "From The Dimm",
@@ -175,34 +175,34 @@ export const sculptures = [
     czText: "",
   }, {
     img: "sochy/sitovka.jpg",
-    enHeading: "Memorial to the inventor of the net bag",
+    enHeading: "Memorial to the inventor of the net bag; Vavřín Krčil",
     enText: "Žďár n. Sázavou.",
-    czHeading: "Pomník pro vynálezce síťovky",
+    czHeading: "Pomník pro vynálezce síťovky Vavřína Krčila",
     czText: "Žďár n. Sázavou.",
   },  {
     img: "sochy/trumpetak.JPG",
-    enHeading: "School work: Trumpet player",
+    enHeading: "Trumpet player",
     enText: "",
-    czHeading: "Školní práce: Trumpeťák",
+    czHeading: "Trumpeťák",
     czText: "",
     subTopic: ""
   }, {
     img: "sochy/muz bez budoucnosti.JPG",
-    enHeading: "School work: Still standing man",
+    enHeading: "Still standing man",
     enText: "",
-    czHeading: "Školní práce: Muž bez budoucnosti",
+    czHeading: "Muž bez budoucnosti",
     czText: "",
   }, {
     img: "sochy/vytrubovany.JPG",
-    enHeading: "School work: Trumpet player",
+    enHeading: "Trumpet player",
     enText: "",
-    czHeading: "Školní práce: Trumpeťák",
+    czHeading: "Trumpeťák",
     czText: "",
   }, {
     img: "sochy/zachrana.JPG",
-    enHeading: "School work: Helping man",
+    enHeading: "Helping man",
     enText: "",
-    czHeading: "Školní práce: Záchrana",
+    czHeading: "Záchrana",
     czText: "",
   }, {
     img: "sochy/neznamemu.JPG",
@@ -248,9 +248,9 @@ export const sculptures = [
     subTopic: "portrety"
   }, {
     img: "sochy/dve hlavy.JPG",
-    enHeading: "",
+    enHeading: "Architects: Ludwig Mies van der Rohe and Ernst Wiesner",
     enText: "",
-    czHeading: "",
+    czHeading: "Architekti: Ludwig Mies van der Rohe a Ernst Wiesner",
     czText: "",
     subTopic: "portrety"
   }, {
