@@ -5,7 +5,7 @@ const pageId = document.body.id;
 export const designs = [
   {
     img: "designy/bystrice.jpg",
-    enHeading: "Lighting of sv. Vavřinec church, Bystřice n. P.",
+    enHeading: "Lighting of st. Vavřinec church, Bystřice n. P.",
     enText: "Opal glass. In collaboration with Zdeněk Lhotský Glassworks. 2004.",
     czHeading: "Osvětlení kostela sv. Vavřince, Bystřice n. P.",
     czText: "Opálové sklo. Ve spolupráci se sklárnou Zdeňka Lhotského. 2004.",
@@ -20,7 +20,7 @@ export const designs = [
     enHeading: "High grass bookcase",
     enText: "Glued plywood, 2014. Bronze winner A'DESIGN AWARD.",
     czHeading: "Knihovna vysoká tráva.",
-    czText: "Lepená překlyška, 2014. Bronze winner A'DESIGN AWARD.",
+    czText: "Lepená překliška, 2014. Bronze winner A'DESIGN AWARD.",
   }, {
     img: "designy/hg cerna.jpg",
     enHeading: "",
@@ -29,7 +29,7 @@ export const designs = [
     czText: "",
   }, {
     img: "designy/mriz skica.JPG",
-    enHeading: "Sketch of gate",
+    enHeading: "Sketch of a gate",
     enText: "",
     czHeading: "Skica brány",
     czText: "",
@@ -37,13 +37,13 @@ export const designs = [
     img: "designy/mriz.JPG",
     enHeading: "High grass gate",
     enText: "Wrought iron.",
-    czHeading: "Brána vysoká tráva",
+    czHeading: "Brána Vysoká tráva",
     czText: "Kované železo.",
   }, {
     img: "designy/trencin 1.JPEG",
-    enHeading: "Fountain in Trenčín",
+    enHeading: "Fountain in Trenčín, Slovakia",
     enText: "2018. Bronze. 4m x 8m.",
-    czHeading: "Kašna v Trenčíně.",
+    czHeading: "Kašna v Trenčíně, Slovensko.",
     czText: "2018. Bronz. 4m x 8m.",
   }, {
     img: "designy/trencin 2.jpg",
@@ -71,10 +71,10 @@ export const designs = [
     czText: "",
   }, {
     img: "designy/pitko sv petr.jpg",
-    enHeading: "Drinking fountain sv. Petr",
-    enText: "Brno",
-    czHeading: "Pítko sv. Petr",
-    czText: "Brno",
+    enHeading: "Drinking fountain",
+    enText: "Brno, st. Peter's catedral. Granite",
+    czHeading: "Pítko",
+    czText: "Brno, chrám sv. Petra. Granit.",
   }, {
     img: "designy/ambasada.jpg",
     enHeading: "Czech embassy in Luxembourg",
@@ -83,7 +83,7 @@ export const designs = [
     czText: "",
   }, {
     img: "designy/ostrava 5.JPG",
-    enHeading: "Fountain on Masarykovo náměstí, Ostrava",
+    enHeading: "Fountain on Masaryk's náměstí, Ostrava",
     enText: "Bronze. 0.5m x 25m.",
     czHeading: "Fontána Masarykovo náměstí, Ostrava",
     czText: "Bronz. 0.5m x 25m.",
@@ -101,7 +101,7 @@ export const designs = [
     czText: "",
   }, {
     img: "designy/keramicke modely.JPG",
-    enHeading: "Sketches for fountain",
+    enHeading: "Sketches for a fountain",
     enText: "Fired ceramics.",
     czHeading: "Skicy k fontáně",
     czText: "Pálená keramika.",
@@ -113,20 +113,20 @@ export const designs = [
     czText: "Vinohradský hřbitov, Praha.",
   }, {
     img: "designy/hrob 2.png",
-    enHeading: "",
-    enText: "",
+    enHeading: "Grave for Inge",
+    enText: "Hrob pro Inge",
     czHeading: "",
     czText: "",
   }, {
     img: "designy/hrob 3.JPG",
-    enHeading: "",
+    enHeading: "Grave for a British sailor from WWII",
     enText: "",
-    czHeading: "",
+    czHeading: "Hrob pro britského náámořníka z II. svět. války",
     czText: "",
   }, {
     img: "designy/hrob 4.jpg",
-    enHeading: "",
-    enText: "",
+    enHeading: "Grave for Kaj",
+    enText: "Náhrobek pro Kaje",
     czHeading: "",
     czText: "",
   }, {
@@ -149,13 +149,13 @@ export const designs = [
     czText: "",
   }, {
     img: "designy/sklo na desce.jpg",
-    enHeading: "Heart in glass",
+    enHeading: "The heart in glass",
     enText: "",
     czHeading: "Srdce ve sklu",
     czText: "",
   }, {
     img: "designy/hodonin navrh.jpg",
-    enHeading: "Model of the fountain for Hodonín.",
+    enHeading: "Model of the fountain for Hodonín",
     enText: "20m x 2.5m. Bronze.",
     czHeading: "Model fontány pro Hodonín.",
     czText: "20m x 2.5m. Bronz.",
@@ -185,10 +185,10 @@ export const designs = [
     czText: "Větve a juta. V: 3m. Nový Jimramov 2023.",
   }, {
     img: "designy/slavnikovec.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
+    enHeading: "Reliquary of st. Adalbert",
+    enText: "Prague, cathedral of st. Vítus, Wenceslas and Adalbert",
+    czHeading: "Relikviář sv. Vojtěch",
+    czText: "Praha, chrám sv. Víta, Václava a Vojtěcha.",
   }
 ];
 
