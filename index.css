@@ -36,15 +36,8 @@
 #about-me p {
     margin-left: 2.5vw;
     margin-right: 2.5vw;
+    margin-bottom: 2.5vw;
     max-width: 500px; 
-}
-
-#about-me img {
-    width: 150px;
-    height: 150px;
-    margin-left: 2.5vw;
-    margin-top: 10px;
-    margin-bottom: 2vw;
 }
 
 footer {
