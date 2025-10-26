@@ -163,15 +163,15 @@ export const photos = [
   }, {
     img: "fotky/slivova.jpg",
     enHeading: "Hana Slívová",
-    enText: "Czech editor, moderator, and drawer.",
+    enText: "Czech administrator, moderator, and drawer.",
     czHeading: "Hana Slívová",
-    czText: "Česká editorka, moderátorka a kreslířka.",
+    czText: "Česká administratorka, moderátorka a kreslířka.",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/slivova - kyspersky.jpg",
     enHeading: "Hana Slívová and Martin Kyšperský",
-    enText: "Czech singer, Martin Kyšperský, and Czech editor, moderator, and drawer, Hana Slívová.",
-    czHeading: "Český zpěvák, Martin Kyšperský a česká editorka, moderátorka a kreslířka, Hana Slívová.",
+    enText: "Czech singer, Martin Kyšperský, and Czech administrator, moderator, and drawer, Hana Slívová.",
+    czHeading: "Český zpěvák, Martin Kyšperský a česká administratorka, moderátorka a kreslířka, Hana Slívová.",
     czText: "",
     subTopic: "tvarearuce"
   }, {
@@ -591,16 +591,16 @@ export const photos = [
     subTopic: "hudba"
   }, {
     img: "fotky/leden.png",
-    enHeading: "Censored by the editor",
+    enHeading: "Censored by the administrator",
     enText: "",
-    czHeading: "Cenzurováno editorem",
+    czHeading: "Cenzurováno administrátorem",
     czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/unor.png",
-    enHeading: "Censored by the editor",
+    enHeading: "Censored by the administrator",
     enText: "",
-    czHeading: "Cenzurováno editorem",
+    czHeading: "Cenzurováno administrátorem",
     czText: "",
     subTopic: "hudba"
   }, {
@@ -612,9 +612,9 @@ export const photos = [
     subTopic: "hudba"
   }, {
     img: "fotky/duben.png",
-    enHeading: "Censored by the editor",
+    enHeading: "Censored by the administrator",
     enText: "",
-    czHeading: "Cenzurováno editorem",
+    czHeading: "Cenzurováno administrátorem",
     czText: "",
     subTopic: "hudba"
   }, {
@@ -640,9 +640,9 @@ export const photos = [
     subTopic: "hudba"
   }, {
     img: "fotky/srpen.png",
-    enHeading: "Censored by the editor",
+    enHeading: "Censored by the administrator",
     enText: "",
-    czHeading: "Cenzurováno editorem",
+    czHeading: "Cenzurováno administrátorem",
     czText: "",
     subTopic: "hudba"
   }, {
