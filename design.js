@@ -40,6 +40,30 @@ export const designs = [
     czHeading: "Brána Vysoká tráva",
     czText: "Kované železo.",
   }, {
+    img: "designy/brana.jpg",
+    enHeading: "Sketch for a gate",
+    enText: "",
+    czHeading: "Skica pro bránu",
+    czText: "",
+  }, {
+    img: "designy/brana 2.gif",
+    enHeading: "Sketch for a gate",
+    enText: "",
+    czHeading: "Skica pro bránu",
+    czText: "",
+  }, {
+    img: "designy/brana 3.JPG",
+    enHeading: "High grass gate",
+    enText: "",
+    czHeading: "Brána Vysoká tráva",
+    czText: "",
+  }, {
+    img: "designy/brana 4.JPG",
+    enHeading: "",
+    enText: "",
+    czHeading: "",
+    czText: "",
+  }, {
     img: "designy/trencin 1.JPEG",
     enHeading: "Fountain in Trenčín, Slovakia",
     enText: "2018. Bronze. 4m x 8m.",
