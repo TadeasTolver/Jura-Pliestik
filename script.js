@@ -154,3 +154,13 @@ document.querySelector("body").addEventListener("click", (event) => {
         }
     }
 });
+
+if (pageId === "sochy" || pageId === "design" || pageId === "fotky") {
+    document.querySelectorAll("img").forEach(img => {
+        if (img.complete) {
+        img.classList.add("img-loaded")
+        } else {
+        img.addEventListener("load", () => {img.classList.add("img-loaded")});
+        }
+    }); 
+}
