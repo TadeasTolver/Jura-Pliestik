@@ -233,18 +233,18 @@ p {
 
 @keyframes pulse {
     0% {
-        background-color: white;
-        opacity: 0.5;
+        background-color: rgb(183, 183, 183);
+        opacity: 0;
     }
 
     50% {
-        background-color: rgba(0, 0, 0, 0.172);
+        background-color: rgb(106, 106, 106);
         opacity: 1;
     }
 
     100% {
-        background-color: white;
-        opacity: 0.5;
+        background-color: rgb(183, 183, 183);
+        opacity: 0;
     }
 }
 
