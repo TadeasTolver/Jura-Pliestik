@@ -164,7 +164,5 @@ if (pageId === "sochy" || pageId === "design" || pageId === "fotky") {
                 img.addEventListener("load", () => {img.classList.add("img-loaded")});
             }
         }); 
-
-        console.log("work")
     }, 100);
 }
