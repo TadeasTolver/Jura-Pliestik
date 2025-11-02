@@ -46,7 +46,7 @@ export const photos = [
     enHeading: "Nicholas Panayi",
     enText: "Cypriot painter and educator.",
     czHeading: "Nicholas Panayi",
-    czText: "Malír a pedagog z Kypru.",
+    czText: "Malíř a pedagog z Kypru.",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/vopalenska.jpg",
