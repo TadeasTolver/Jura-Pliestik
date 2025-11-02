@@ -233,7 +233,7 @@ p {
 @keyframes pulse {
     0% {
         background-color: white;
-        opacity: 0;
+        opacity: 0.5;
     }
 
     50% {
@@ -243,7 +243,7 @@ p {
 
     100% {
         background-color: white;
-        opacity: 0;
+        opacity: 0.5;
     }
 }
 
