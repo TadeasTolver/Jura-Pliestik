@@ -4,6 +4,8 @@ import { photos } from "./fotky.js";
 
 const pageId = document.body.id;
 
+console.log("event listener added")
+
 if (visualViewport.width < 655) {
     if (pageId === "index") {
         console.log("hello")
