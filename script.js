@@ -16,6 +16,9 @@ if (visualViewport.width < 655) {
 let imgViewerImgId;
 
 const renderImgViewer = () => {
+    document.querySelector("#img-viewer h3").innerHTML = "";
+    document.querySelector("#img-viewer p").innerHTML = "";
+    
     document.querySelector("#img-viewer img").src = document.querySelector(`#img-${imgViewerImgId}`).src;
     document.querySelector("#img-viewer img").addEventListener("load", () => { // after the img has loaded, render text
         document.querySelector("#img-viewer h3").innerHTML = document.querySelector(`#h-${imgViewerImgId}`).innerHTML;
