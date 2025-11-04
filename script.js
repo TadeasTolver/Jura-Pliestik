@@ -16,8 +16,8 @@ if (visualViewport.width < 655) {
 let imgViewerImgId;
 
 const renderImgViewer = () => {
-    document.querySelector("#img-viewer h3").innerHTML = "";
-    document.querySelector("#img-viewer p").innerHTML = "";
+    document.querySelector("#img-viewer h3").innerHTML = " ";
+    document.querySelector("#img-viewer p").innerHTML = " ";
     document.querySelector("#img-viewer img").src = "https://img.freepik.com/free-photo/gray-texture_1253-153.jpg?semt=ais_hybrid&w=740&q=80";    
     
     document.querySelector("#img-viewer img").src = document.querySelector(`#img-${imgViewerImgId}`).src;
