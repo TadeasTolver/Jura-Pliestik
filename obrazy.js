@@ -24,49 +24,49 @@ export const paintings = [
     img: "obrazy/pastel 6.JPG",
     subTopic: "pastel",
   }, {
-    img: "obrazy/pastel 7.PNG",
+    img: "obrazy/pastel 7.png",
     subTopic: "pastel",
   }, {
-    img: "obrazy/pastel 8.PNG",
+    img: "obrazy/pastel 8.png",
     subTopic: "pastel",
   }, {
-    img: "obrazy/pastel 9.PNG",
+    img: "obrazy/pastel 9.png",
     subTopic: "pastel",
   }, {
-    img: "obrazy/aqua 1.JPG",
+    img: "obrazy/aqua 1.jpg",
     subTopic: "aquaprint",
   }, {
-    img: "obrazy/aqua 2.JPG",
+    img: "obrazy/aqua 2.jpg",
     subTopic: "aquaprint",
   }, {
-    img: "obrazy/aqua 3.JPG",
+    img: "obrazy/aqua 3.jpg",
     subTopic: "aquaprint",
   }, {
-    img: "obrazy/aqua 4.JPG",
+    img: "obrazy/aqua 4.jpg",
     subTopic: "aquaprint",
   }, {
-    img: "obrazy/aqua 5.JPG",
+    img: "obrazy/aqua 5.jpg",
     subTopic: "aquaprint",
   }, {
-    img: "obrazy/aqua 6.JPG",
+    img: "obrazy/aqua 6.jpg",
     subTopic: "aquaprint",
   }, {
-    img: "obrazy/aqua 7.JPG",
+    img: "obrazy/aqua 7.jpg",
     subTopic: "aquaprint",
   }, {
-    img: "obrazy/aqua 8.JPG",
+    img: "obrazy/aqua 8.jpg",
     subTopic: "aquaprint",
   }, {
-    img: "obrazy/aqua 9.JPG",
+    img: "obrazy/aqua 9.jpg",
     subTopic: "aquaprint",
   }, {
-    img: "obrazy/aqua 10.JPG",
+    img: "obrazy/aqua 10.jpg",
     subTopic: "aquaprint",
   }, {
-    img: "obrazy/aqua 12.JPG",
+    img: "obrazy/aqua 12.jpg",
     subTopic: "aquaprint",
   }, {
-    img: "obrazy/aqua 13.JPG",
+    img: "obrazy/aqua 13.jpg",
     subTopic: "aquaprint",
   }, {
     img: "obrazy/krava.jpg",
