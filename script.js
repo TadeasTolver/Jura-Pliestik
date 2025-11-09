@@ -1,6 +1,7 @@
 import { sculptures } from "./sochy.js";
 import { designs } from "./design.js";
 import { photos } from "./fotky.js";
+import { paintings } from "./obrazy.js";
 
 const pageId = document.body.id;
 
@@ -55,7 +56,9 @@ window.nextImg = () => {
         artworksArray = sculptures;
     } else if (pageId === "design") {
         artworksArray = designs;
-    } else {
+    } else if (pageId === "obrazy") {
+        artworksArray = paintings;
+    } else if (pageId === "fotky") {
         artworksArray = photos;
     }
 
@@ -105,6 +108,8 @@ window.changeToCz = () => {
     } else if (pageId === "texty") {
         renderTexts();
         document.querySelector(".heading").innerHTML = "Texty";
+    } else if (pageId === "obrazy") {
+        changePaintingsToCz();
     }
 
     setEventListeners();
@@ -135,6 +140,8 @@ window.changeToEn = () => {
     } else if (pageId === "texty") {
         renderTexts();
         document.querySelector(".heading").innerHTML = "Texts (only in Czech)";
+    } else if (pageId === "obrazy") {
+        changePaintingsToEn();
     }
     
     setEventListeners();
@@ -155,7 +162,7 @@ document.querySelector("body").addEventListener("click", (event) => {
             document.querySelector("#about-me").style.display = "none";
             document.querySelector("#main-img").style.filter = "blur(0)";
         }
-    } else if (pageId === "sochy" || pageId === "design" || pageId === "fotky") {
+    } else if (pageId === "sochy" || pageId === "design" || pageId === "fotky" || pageId === "obrazy") {
         if (event.target === document.querySelector("#img-viewer img") || event.target.tagName !== "IMG" && event.target.tagName !== "BUTTON") {
             document.querySelector("#img-viewer").style.display = "none";
             document.body.style.overflow = "";
@@ -163,7 +170,7 @@ document.querySelector("body").addEventListener("click", (event) => {
     }
 });
 
-if (pageId === "sochy" || pageId === "design" || pageId === "fotky") {
+if (pageId === "sochy" || pageId === "design" || pageId === "fotky" || pageId === "obrazy") {
     setTimeout(() => {
         document.querySelectorAll("img").forEach(img => {
             if (img.complete) {
