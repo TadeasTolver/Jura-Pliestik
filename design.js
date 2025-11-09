@@ -11,28 +11,18 @@ export const designs = [
     czText: "Opálové sklo. Ve spolupráci se sklárnou Zdeňka Lhotského. 2004.",
   }, {
     img: "designy/bystrice 2.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/hg modra.jpg",
     enHeading: "High grass bookcase",
-    enText: `Glued plywood, 2014. Bronze winner <a href="https://competition.adesignaward.com/ada-winner-design.php?ID=34200" class="artwork-link">A'DESIGN AWARD</a>.`,
+    enText: `Glued plywood, 2014. Bronze winner <a href="https://competition.adesignaward.com/ada-winner-design.php?ID=34200" target="_blank" class="artwork-link">A'DESIGN AWARD</a>.`,
     czHeading: "Knihovna vysoká tráva.",
-    czText: `Lepená překliška, 2014. Bronze winner <a href="https://competition.adesignaward.com/ada-winner-design.php?ID=34200" class="artwork-link">A'DESIGN AWARD</a>.`,
+    czText: `Lepená překliška, 2014. Bronze winner <a href="https://competition.adesignaward.com/ada-winner-design.php?ID=34200" target="_blank" class="artwork-link">A'DESIGN AWARD</a>.`,
   }, {
     img: "designy/hg cerna.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/mriz skica.JPG",
     enHeading: "Sketch of a gate",
-    enText: "",
     czHeading: "Skica brány",
-    czText: "",
   }, {
     img: "designy/mriz.JPG",
     enHeading: "High grass gate",
@@ -42,27 +32,17 @@ export const designs = [
   }, {
     img: "designy/brana.jpg",
     enHeading: "Sketch for a gate",
-    enText: "",
     czHeading: "Skica pro bránu",
-    czText: "",
   }, {
     img: "designy/brana 2.gif",
     enHeading: "Sketch for a gate",
-    enText: "",
     czHeading: "Skica pro bránu",
-    czText: "",
   }, {
     img: "designy/brana 3.JPG",
     enHeading: "High grass gate",
-    enText: "",
     czHeading: "Brána Vysoká tráva",
-    czText: "",
   }, {
     img: "designy/brana 4.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/trencin 1.JPEG",
     enHeading: "Fountain in Trenčín, Slovakia",
@@ -71,28 +51,14 @@ export const designs = [
     czText: "2018. Bronz. 4m x 8m.",
   }, {
     img: "designy/trencin 2.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/trencin 3.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/vize 97 1.jpg",
     enHeading: "Sketch for the VIZE 97 prize",
-    enText: "",
     czHeading: "Skica k ceně VIZE 97",
-    czText: "",
   }, {
     img: "designy/vize 97 2.JPEG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/pitko sv petr.jpg",
     enHeading: "Drinking fountain",
@@ -113,16 +79,8 @@ export const designs = [
     czText: "Bronz. 0.5m x 25m.",
   }, {
     img: "designy/ostrava 1.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/ostrava 4.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/keramicke modely.JPG",
     enHeading: "Sketches for a fountain",
@@ -139,44 +97,24 @@ export const designs = [
     img: "designy/hrob 2.png",
     enHeading: "Grave for Inge",
     enText: "Hrob pro Inge",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/hrob 3.JPG",
     enHeading: "Grave for a British sailor from WWII",
-    enText: "",
     czHeading: "Hrob pro britského náámořníka z II. svět. války",
-    czText: "",
   }, {
     img: "designy/hrob 4.jpg",
     enHeading: "Grave for Kaj",
     enText: "Náhrobek pro Kaje",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/hrob 5.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/hrob 6.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/hrob 7.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/sklo na desce.jpg",
     enHeading: "The heart in glass",
-    enText: "",
     czHeading: "Srdce ve sklu",
-    czText: "",
   }, {
     img: "designy/hodonin navrh.jpg",
     enHeading: "Model of the fountain for Hodonín",
@@ -191,16 +129,10 @@ export const designs = [
     czText: "Skica k soše. Suchá jehla.",
   }, {
     img: "designy/skicy.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
   }, {
     img: "designy/vizualizace.jpg",
     enHeading: "Visualization",
-    enText: "",
     czHeading: "Vizualizace",
-    czText: "",
   }, {
     img: "designy/novy jimramov.JPG",
     enHeading: "Playground for kids",
@@ -223,8 +155,8 @@ window.renderDesigns = () => {
     designCon.innerHTML += `
       <div class="artwork">
         <img src="${design.img}" id="img-${String(index).padStart(2,"0")}" loading="lazy"></img>
-        <h4 id="h-${String(index).padStart(2,"0")}">${(localStorage.getItem("lang") === "en") ? design.enHeading : design.czHeading}</h4>
-        <p id="p-${String(index).padStart(2,"0")}">${(localStorage.getItem("lang") === "en") ? design.enText : design.czText}</p>
+        <h4 id="h-${String(index).padStart(2,"0")}">${(design.czHeading) ? (localStorage.getItem("lang") === "en") ? design.enHeading : design.czHeading : ""}</h4>
+        <p id="p-${String(index).padStart(2,"0")}">${(design.czText) ? (localStorage.getItem("lang") === "en") ? design.enText : design.czText : ""}</p>
       </div>`;
 
     const img = document.querySelectorAll("#designs img")[designs.indexOf(design)];
@@ -237,4 +169,3 @@ window.renderDesigns = () => {
 if (pageId === "design") {
   renderDesigns();
 }
-
