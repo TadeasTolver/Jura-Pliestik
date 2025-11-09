@@ -16,29 +16,21 @@ export const photos = [
   }, {
     img: "fotky/orel 2.JPG",
     enHeading: "Jakub Orel, Marienka, and Matyáš",
-    enText: "",
     czHeading: "Jakub Orel, Marienka a Matyáš",
-    czText: "",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/svarec.jpg",
     enHeading: "Welder",
-    enText: "",
     czHeading: "Svářeč",
-    czText: "",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/rohde.JPG",
-    enHeading: "",
     enText: "Danish collector of prehistoric tools.",
-    czHeading: "",
     czText: "Dánský sběratel prehistorických nástrojů.",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/malene.JPG",
-    enHeading: "",
     enText: "Danish photographer.",
-    czHeading: "",
     czText: "Dánská fotografka.",
     subTopic: "tvarearuce"
   }, {
@@ -107,9 +99,7 @@ export const photos = [
   }, {
     img: "fotky/gynekolove z londyna.JPG",
     enHeading: "My friend's parents, gynecologists from London.",
-    enText: "",
     czHeading: "Rodiče mé kamarádky, gynekologové z Londýna.",
-    czText: "",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/kuzmack.JPG",
@@ -121,9 +111,7 @@ export const photos = [
   }, {
     img: "fotky/snezana - vychrena.JPG",
     enHeading: "Bulgarian sisters Sněžana and Vichrena.",
-    enText: "",
     czHeading: "Bulharské sestry Sněžana a Vichrena.",
-    czText: "",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/spotishwood.JPG",
@@ -135,9 +123,7 @@ export const photos = [
   }, {
     img: "fotky/kardio.jpg",
     enHeading: "Cardiologist with his fiancée.",
-    enText: "",
     czHeading: "Kardiolog se svojí snoubenkou",
-    czText: "",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/moravec.JPG",
@@ -170,9 +156,9 @@ export const photos = [
   }, {
     img: "fotky/slivova - kyspersky.jpg",
     enHeading: "Hana Slívová and Martin Kyšperský",
-    enText: "Czech singer, Martin Kyšperský, and Czech administrator, moderator, and drawer, Hana Slívová.",
-    czHeading: "Český zpěvák, Martin Kyšperský a česká administratorka, moderátorka a kreslířka, Hana Slívová.",
-    czText: "",
+    enText: "Czech singer, Martin Kyšperský, and Czech editor, moderator, and drawer, Hana Slívová.",
+    czHeading: "Hana Slívová a Martin Kyšperský",
+    czText: "Český zpěvák, Martin Kyšperský a česká editorka, moderátorka a kreslířka, Hana Slívová.",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/sonntag.jpg",
@@ -184,487 +170,223 @@ export const photos = [
   },
   {
     img: "fotky/sklo.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/sklo 3.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/sklo 4.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/sklo 5.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/sklo 6.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/sklo 7.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/sklo 8.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/sklo 9.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/sklo 10.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/kytka.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/blyzna.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/kytka 2.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/okno.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/okno 2.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/letadlo.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/letadlo 2.png",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/letadlo 3.png",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "zatisi"
   }, {
     img: "fotky/krajina.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "krajiny"
   }, {
     img: "fotky/krajina 2.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "krajiny"
   }, {
     img: "fotky/krajina 3.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "krajiny"
   }, {
     img: "fotky/krajina 4.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "krajiny"
   }, {
     img: "fotky/krajina 5.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
+
     subTopic: "krajiny"
   }, {
     img: "fotky/krajina 6.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "krajiny"
   }, {
     img: "fotky/krajina 8.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "krajiny"
   }, {
     img: "fotky/krajina 9.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "krajiny"
   }, {
     img: "fotky/krajina 10.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "krajiny"
   }, {
     img: "fotky/krajina 11.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "krajiny"
   }, {
     img: "fotky/krajina 12.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "krajiny"
   }, {
     img: "fotky/krajina 13.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "krajiny"
   }, {
     img: "fotky/krajina 14.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "krajiny"
   }, {
     img: "fotky/divadlo.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"    
   }, {
     img: "fotky/divadlo 2.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"    
   }, {
     img: "fotky/divadlo 3.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"    
   }, {
     img: "fotky/divadlo 4.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"    
   }, {
     img: "fotky/divadlo 5.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"    
   }, {
     img: "fotky/divadlo 6.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"    
-  },
-  {
+  },{
     img: "fotky/koncert.jpg",
-    enHeading: "",
-    enText: "",
     czHeading: "John Abercombie a Rudi Linka",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/koncert 2.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/koncert 3.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/koncert 4.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/koncert 5.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/koncert 6.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/koncert 7.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/koncert 8.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/koncert 11.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/koncert 12.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/koncert 13.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/koncert 14.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/fuck.jpg",
-    enHeading: "",
     enText: "British duo: The Fuck Buttons, festival Roskilde, Denmark.",
     czHeading: "Britské duo: The Fuck Buttons, festival Roskilde, Dánsko.",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/fuck 2.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/fuck 3.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/fuck 4.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/fuck 5.JPG",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/fuck 6.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/fuck 7.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/fuck 8.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/fuck 9.jpg",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/kalendar 1.png",
-    enHeading: "",
-    enText: "",
     czHeading: "Parafráze univerzálního hudebního kalendáře",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/leden.png",
     enHeading: "Censored by the administrator",
-    enText: "",
     czHeading: "Cenzurováno administrátorem",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/unor.png",
     enHeading: "Censored by the administrator",
-    enText: "",
     czHeading: "Cenzurováno administrátorem",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/brezen.png",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/duben.png",
     enHeading: "Censored by the administrator",
-    enText: "",
     czHeading: "Cenzurováno administrátorem",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/kveten.png",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/cerven.png",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/cervenec.png",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/srpen.png",
     enHeading: "Censored by the administrator",
-    enText: "",
     czHeading: "Cenzurováno administrátorem",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/zari.png",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/rijen.png",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }, {
     img: "fotky/listopad.png",
-    enHeading: "",
-    enText: "",
-    czHeading: "",
-    czText: "",
     subTopic: "hudba"
   }
 ]
@@ -682,8 +404,8 @@ const renderPhotos = () => {
     const html = `
       <div class="artwork">
         <img src="${photo.img}" id="img-${String(index).padStart(2,"0")}" loading="lazy"></img>
-        <h4 id="h-${String(index).padStart(2,"0")}">${(localStorage.getItem("lang") === "en") ? photo.enHeading : photo.czHeading}</h4>
-        <p id="p-${String(index).padStart(2,"0")}">${(localStorage.getItem("lang") === "en") ? photo.enText : photo.czText}</p>
+        <h4 id="h-${String(index).padStart(2,"0")}">${(photo.czHeading) ? (localStorage.getItem("lang") === "en") ? photo.enHeading : photo.czHeading : ""}</h4>
+        <p id="p-${String(index).padStart(2,"0")}">${(photo.czText) ? (localStorage.getItem("lang") === "en") ? photo.enText : photo.czText : ""}</p>
       </div>`;
     if (photo.subTopic === "tvarearuce") {
       tvarearuceCon.innerHTML += html;
