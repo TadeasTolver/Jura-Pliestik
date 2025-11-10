@@ -139,6 +139,9 @@ export const paintings = [
 
 
 const renderPaintings = () => {
+    pastelCon.innerHTML = "";
+    aquaprintCon.innerHTML = "";
+    vojnaCon.innerHTML = "";
     let numOfPastel = 0;
     let numOfAquaprint = 0;
 
