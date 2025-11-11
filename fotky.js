@@ -7,6 +7,107 @@ const pageId = document.body.id;
 
 export const photos = [
   {
+    img: "fotky/jessica aue.jpg",
+    enHeading: "Jessica Aue",
+    enText: "American song writer",
+    czHeading: "Jessica Aue",
+    czText: "Americká skladatelka",
+    subTopic: "tvarearuce"
+  },  {
+    img: "fotky/tomas ruzicka.JPG",
+    enHeading: "Tomáš Růžička",
+    enText: "Czech writer",
+    czHeading: "Tomáš Růžička",
+    czText: "Český spisovatel",
+    subTopic: "tvarearuce"
+  },   {
+    img: "fotky/politi.JPG",
+    subTopic: "tvarearuce"
+  },   {
+    img: "fotky/elena pliestikova.JPG",
+    enHeading: "Elena Plieštiková",
+    czHeading: "Elena Plieštiková",
+    subTopic: "tvarearuce"
+  },   {
+    img: "fotky/tine psychyologist.JPG",
+    subTopic: "tvarearuce"
+  },   {
+    img: "fotky/torkild grosbøll.jpg",
+    enHeading: "Torkild Grosbøll",
+    czHeading: "Torkild Grosbøll",
+    subTopic: "tvarearuce"
+  },   {
+    img: "fotky/ukul miro.JPG",
+    enHeading: "Ukul Miro",
+    czHeading: "Ukul Miro",
+    subTopic: "tvarearuce"
+  },   {
+    img: "fotky/vincenc koutnik.JPG",
+    enHeading: "Vincenc Koutník",
+    czHeading: "Vincenc Koutník",
+    subTopic: "tvarearuce"
+  },   {
+    img: "fotky/vladimir herak.JPG",
+    enHeading: "Vladimír Herák",
+    czHeading: "Vladimír Herák",
+    subTopic: "tvarearuce"
+  }, {
+    img: "fotky/justin sparks.JPG",
+    enHeading: "Justin Sparks",
+    czHeading: "Justin sparks",
+    subTopic: "tvarearuce"
+  }, {
+    img: "fotky/derek paton.jpg",
+    enHeading: "Derek Paton",
+    czHeading: "Derek Paton",
+    subTopic: "tvarearuce"
+  }, {
+    img: "fotky/eliska zdarv sestra.JPG",
+    subTopic: "tvarearuce"
+  }, {
+    img: "fotky/elizaveta doktorka ukrajna.JPG",
+    subTopic: "tvarearuce"
+  }, {
+    img: "fotky/hana a martin jelinkovy.JPG",
+    subTopic: "tvarearuce"
+  }, {
+    img: "fotky/honza mayer architekt.JPG",
+    enHeading: "Honza Mayer",
+    enText: "Czech architect",
+    czHeading: "Honza Mayer",
+    czText: "Český architekt",
+    subTopic: "tvarearuce"
+  }, {
+    img: "fotky/irena h.jpg",
+    enHeading: "Irena H.",
+    czHeading: "Irena H.",
+    subTopic: "tvarearuce"
+  }, {
+    img: "fotky/jan sedmidubsky.JPG",
+    enHeading: "Jan Sedmidubský",
+    czHeading: "Jan Sedmidubský",
+    subTopic: "tvarearuce"
+  }, {
+    img: "fotky/jana skalicka umelkyne.JPG",
+    enHeading: "Jana Skalická",
+    enText: "Czech artist",
+    czHeading: "Jana Skalická",
+    czText: "Česká umělkyně",
+    subTopic: "tvarearuce"
+  }, {
+    img: "fotky/olga.jpg",
+    subTopic: "tvarearuce"
+  }, {
+    img: "fotky/stryc a neter inde.JPG",
+    subTopic: "tvarearuce"
+  }, {
+    img: "fotky/tomas rusin.JPG",
+    enHeading: "Tomáš Rusín",
+    enText: "Czech architect",
+    czHeading: "Tomáš Rusín",
+    czText: "Český architekt",
+    subTopic: "tvarearuce"
+  }, {
     img: "fotky/orel.jpg",
     enHeading: "Jakub Orel Tomáš",
     enText: "Czech artist and curator.",
