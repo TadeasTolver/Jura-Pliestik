@@ -13,62 +13,84 @@ export const photos = [
     czHeading: "Jessica Aue",
     czText: "Americká skladatelka",
     subTopic: "tvarearuce"
-  },  {
+  }, {
     img: "fotky/tomas ruzicka.JPG",
     enHeading: "Tomáš Růžička",
-    enText: "Czech writer",
+    enText: "Czech scientist, organist and dissident.",
     czHeading: "Tomáš Růžička",
-    czText: "Český spisovatel",
+    czText: "Český vědec, varhaník a disident.",
     subTopic: "tvarearuce"
-  },   {
+  }, {
     img: "fotky/politi.JPG",
     subTopic: "tvarearuce"
-  },   {
+  }, {
     img: "fotky/elena pliestikova.JPG",
-    enHeading: "Elena Plieštiková",
-    czHeading: "Elena Plieštiková",
+    enHeading: "Moje aunt Elena",
+    czHeading: "Moje teta Elena",
     subTopic: "tvarearuce"
-  },   {
+  }, {
     img: "fotky/tine psychyologist.JPG",
     subTopic: "tvarearuce"
-  },   {
+  }, {
     img: "fotky/torkild grosbøll.jpg",
     enHeading: "Torkild Grosbøll",
+    enText: "Priest.",
     czHeading: "Torkild Grosbøll",
+    czText: "Duchovník.",
     subTopic: "tvarearuce"
-  },   {
+  }, {
     img: "fotky/ukul miro.JPG",
-    enHeading: "Ukul Miro",
-    czHeading: "Ukul Miro",
+    enHeading: "Miroslav Kumhala",
+    enText: "Czech actor",
+    czHeading: "Miroslav Kumhala",
+    czText: "Český herec",
     subTopic: "tvarearuce"
   },   {
     img: "fotky/vincenc koutnik.JPG",
     enHeading: "Vincenc Koutník",
+    enText: "Anti-Nazi fighter, prisoner of the communist regime.",
     czHeading: "Vincenc Koutník",
+    czText: "Proti nacistický bojovník, vězeň komunistického režimu.",
     subTopic: "tvarearuce"
   },   {
     img: "fotky/vladimir herak.JPG",
     enHeading: "Vladimír Herák",
+    enText: "Czech educator and musician.",
     czHeading: "Vladimír Herák",
+    czText: "Český pedagog a hudebník.",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/justin sparks.JPG",
     enHeading: "Justin Sparks",
-    czHeading: "Justin sparks",
+    enText: "British journalist",
+    czHeading: "Justin Sparks",
+    czText: "Britský novinář.",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/derek paton.jpg",
     enHeading: "Derek Paton",
+    enText: "Canadian translator.",
     czHeading: "Derek Paton",
+    czText: "Kanadský překladatel",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/eliska zdarv sestra.JPG",
+    enHeading: "Eliška",
+    enText: "Nurse",
+    czHeading: "Eliška",
+    czText: "Zdravotní sestra.",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/elizaveta doktorka ukrajna.JPG",
+    enHeading: "Elizaveta",
+    enText: "Surgeon on the Ukrainian Front.",
+    czHeading: "Elizaveta",
+    czText: "Doktorka chirurgie na Ukrajinské frontě.",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/hana a martin jelinkovy.JPG",
+    enHeading: "Hanka and Martin",
+    czHeading: "Hanka a Martin",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/honza mayer architekt.JPG",
@@ -79,13 +101,15 @@ export const photos = [
     subTopic: "tvarearuce"
   }, {
     img: "fotky/irena h.jpg",
-    enHeading: "Irena H.",
-    czHeading: "Irena H.",
+    enHeading: "Irena Havlová.",
+    czHeading: "Irena Havlová.",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/jan sedmidubsky.JPG",
     enHeading: "Jan Sedmidubský",
+    enText: "Audio documentarist",
     czHeading: "Jan Sedmidubský",
+    czText: "Audio dokumentarista",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/jana skalicka umelkyne.JPG",
@@ -96,9 +120,15 @@ export const photos = [
     subTopic: "tvarearuce"
   }, {
     img: "fotky/olga.jpg",
+    enHeading: "Olga",
+    enText: "Unknown",
+    czHeading: "Olga",
+    czText: "Neznámá",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/stryc a neter inde.JPG",
+    enHeading: "Uncle and niece Rajastan",
+    czHeading: "Strýc a neteř Rajastan",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/tomas rusin.JPG",
@@ -122,7 +152,9 @@ export const photos = [
   }, {
     img: "fotky/svarec.jpg",
     enHeading: "Welder",
+    enText: "Germany",
     czHeading: "Svářeč",
+    czText: "Německo",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/rohde.JPG",
@@ -259,7 +291,7 @@ export const photos = [
     enHeading: "Hana Slívová and Martin Kyšperský",
     enText: "Czech singer, Martin Kyšperský, and Czech editor, moderator, and drawer, Hana Slívová.",
     czHeading: "Hana Slívová a Martin Kyšperský",
-    czText: "Český zpěvák, Martin Kyšperský a česká editorka, moderátorka a kreslířka, Hana Slívová.",
+    czText: "Český zpěvák, Martin Kyšperský a editorka, moderátorka a kreslířka, Hana Slívová.",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/sonntag.jpg",
