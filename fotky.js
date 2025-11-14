@@ -25,7 +25,7 @@ export const photos = [
     subTopic: "tvarearuce"
   }, {
     img: "fotky/elena pliestikova.JPG",
-    enHeading: "Moje aunt Elena",
+    enHeading: "My aunt Elena",
     czHeading: "Moje teta Elena",
     subTopic: "tvarearuce"
   }, {
