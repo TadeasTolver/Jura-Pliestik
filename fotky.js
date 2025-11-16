@@ -34,9 +34,9 @@ export const photos = [
   }, {
     img: "fotky/torkild grosbøll.jpg",
     enHeading: "Torkild Grosbøll",
-    enText: "Priest.",
+    enText: "The priest.",
     czHeading: "Torkild Grosbøll",
-    czText: "Duchovník.",
+    czText: "Duchovní.",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/ukul miro.JPG",
