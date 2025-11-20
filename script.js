@@ -90,10 +90,10 @@ window.changeToCz = () => {
     document.querySelector("#cz-btn").style.border = "2px solid #32a87f";
     document.querySelector("#cz-btn").style.outline = "0.5px solid black";
     document.querySelector("#en-btn").style.outline = "none";
-    document.querySelector("#site-links :nth-child(1)").innerHTML = `Sochy, `;
-    document.querySelector("#site-links :nth-child(3)").innerHTML = `obrazy, `;
-    document.querySelector("#site-links :nth-child(4)").innerHTML = `fotografie, `;
-    document.querySelector("#site-links :nth-child(5)").innerHTML = `texty.`;
+    document.querySelector("#site-links :nth-child(1)").innerHTML = `sochy`;
+    document.querySelector("#site-links :nth-child(3)").innerHTML = `obrazy`;
+    document.querySelector("#site-links :nth-child(4)").innerHTML = `fotografie`;
+    document.querySelector("#site-links :nth-child(5)").innerHTML = `texty`;
 
     if (pageId === "index") {
         document.querySelector("#bio-link").innerHTML = "↗ &nbsp;O MĚ";
@@ -123,10 +123,10 @@ window.changeToEn = () => {
     document.querySelector("#en-btn").style.border = "2px solid #32a87f";
     document.querySelector("#en-btn").style.outline = "0.5px solid black";
     document.querySelector("#cz-btn").style.outline = "none";
-    document.querySelector("#site-links :nth-child(1)").innerHTML = `Sculptures, `;
-    document.querySelector("#site-links :nth-child(3)").innerHTML = `pictures, `;
-    document.querySelector("#site-links :nth-child(4)").innerHTML = `photographs, `;
-    document.querySelector("#site-links :nth-child(5)").innerHTML = `texts.`;
+    document.querySelector("#site-links :nth-child(1)").innerHTML = `sculptures`;
+    document.querySelector("#site-links :nth-child(3)").innerHTML = `pictures`;
+    document.querySelector("#site-links :nth-child(4)").innerHTML = `photographs`;
+    document.querySelector("#site-links :nth-child(5)").innerHTML = `texts`;
 
     if (pageId === "index") {
         document.querySelector("#bio-link").innerHTML = "↗ &nbsp;ABOUT ME";
