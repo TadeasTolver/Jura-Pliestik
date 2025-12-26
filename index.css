@@ -90,6 +90,7 @@ footer h3 {
     overflow-y: hidden;
     line-height: 0.9;
     text-align: center;
+    color: rgb(48, 48, 48) !important;
 }
 
 #signature #name {
