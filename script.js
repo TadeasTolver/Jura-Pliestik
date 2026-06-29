@@ -22,6 +22,8 @@ const renderImgViewer = () => {
     document.querySelector("#img-viewer img").src = "https://img.freepik.com/free-photo/gray-texture_1253-153.jpg?semt=ais_hybrid&w=740&q=80";    
     
     document.querySelector("#img-viewer img").src = document.querySelector(`#img-${imgViewerImgId}`).src;
+    console.log(imgViewerImgId)
+    console.log("hello")
     document.querySelector("#img-viewer img").addEventListener("load", () => { // after the img has loaded, render text
         document.querySelector("#img-viewer h3").innerHTML = document.querySelector(`#h-${imgViewerImgId}`).innerHTML;
         document.querySelector("#img-viewer p").innerHTML = document.querySelector(`#p-${imgViewerImgId}`).innerHTML;
@@ -35,7 +37,7 @@ const setEventListeners = () => {
             document.querySelector("#img-viewer").style.display = "flex";
             document.querySelector("#img-viewer img").src = image.src;
 
-            imgViewerImgId = image.id.slice(-2);
+            imgViewerImgId = image.id.slice(-3);
             renderImgViewer();
         });
     });
@@ -90,10 +92,10 @@ window.changeToCz = () => {
     document.querySelector("#cz-btn").style.border = "2px solid #32a87f";
     document.querySelector("#cz-btn").style.outline = "0.5px solid black";
     document.querySelector("#en-btn").style.outline = "none";
-    document.querySelector("#site-links :nth-child(1)").innerHTML = `sochy`;
-    document.querySelector("#site-links :nth-child(3)").innerHTML = `obrazy`;
-    document.querySelector("#site-links :nth-child(4)").innerHTML = `fotografie`;
-    document.querySelector("#site-links :nth-child(5)").innerHTML = `texty`;
+    document.querySelector("#site-links :nth-child(1)").innerHTML = `Sochy, `;
+    document.querySelector("#site-links :nth-child(3)").innerHTML = `obrazy, `;
+    document.querySelector("#site-links :nth-child(4)").innerHTML = `fotografie, `;
+    document.querySelector("#site-links :nth-child(5)").innerHTML = `texty.`;
 
     if (pageId === "index") {
         document.querySelector("#bio-link").innerHTML = "↗ &nbsp;O MĚ";
@@ -123,10 +125,10 @@ window.changeToEn = () => {
     document.querySelector("#en-btn").style.border = "2px solid #32a87f";
     document.querySelector("#en-btn").style.outline = "0.5px solid black";
     document.querySelector("#cz-btn").style.outline = "none";
-    document.querySelector("#site-links :nth-child(1)").innerHTML = `sculptures`;
-    document.querySelector("#site-links :nth-child(3)").innerHTML = `pictures`;
-    document.querySelector("#site-links :nth-child(4)").innerHTML = `photographs`;
-    document.querySelector("#site-links :nth-child(5)").innerHTML = `texts`;
+    document.querySelector("#site-links :nth-child(1)").innerHTML = `Sculptures, `;
+    document.querySelector("#site-links :nth-child(3)").innerHTML = `pictures, `;
+    document.querySelector("#site-links :nth-child(4)").innerHTML = `photographs, `;
+    document.querySelector("#site-links :nth-child(5)").innerHTML = `texts.`;
 
     if (pageId === "index") {
         document.querySelector("#bio-link").innerHTML = "↗ &nbsp;ABOUT ME";
