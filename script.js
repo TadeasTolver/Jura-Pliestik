@@ -47,7 +47,7 @@ setEventListeners();
 
 window.previousImg = () => {
     if (imgViewerImgId > 0) {
-        imgViewerImgId = String(Number(imgViewerImgId) - 1).padStart(2, "0");
+        imgViewerImgId = String(Number(imgViewerImgId) - 1).padStart(3, "0");
         renderImgViewer();
     }
 }
@@ -65,7 +65,7 @@ window.nextImg = () => {
     }
 
     if (imgViewerImgId < artworksArray.length - 1) {
-        imgViewerImgId = String(Number(imgViewerImgId) + 1).padStart(2, "0");
+        imgViewerImgId = String(Number(imgViewerImgId) + 1).padStart(3, "0");
         renderImgViewer();
     }
 }
