@@ -148,9 +148,9 @@ const renderPaintings = () => {
     paintings.forEach((painting, index) => {
       const html = `
         <div class="artwork">
-          <img src="${painting.img}" id="img-${String(index).padStart(2,"0")}" loading="lazy"></img>
-          <h4 id="h-${String(index).padStart(2,"0")}">${(painting.czHeading) ? (localStorage.getItem("lang") === "en") ? painting.enHeading : painting.czHeading : ""}</h4>
-          <p id="p-${String(index).padStart(2,"0")}">${(painting.czText) ? (localStorage.getItem("lang") === "en") ? painting.enText : painting.czText : ""}</p>
+          <img src="${painting.img}" id="img-${String(index).padStart(3,"0")}" loading="lazy"></img>
+          <h4 id="h-${String(index).padStart(3,"0")}">${(painting.czHeading) ? (localStorage.getItem("lang") === "en") ? painting.enHeading : painting.czHeading : ""}</h4>
+          <p id="p-${String(index).padStart(3,"0")}">${(painting.czText) ? (localStorage.getItem("lang") === "en") ? painting.enText : painting.czText : ""}</p>
         </div>`;
 
     if (painting.subTopic === "pastel") {
