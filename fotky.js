@@ -25,7 +25,7 @@ export const photos = [
     subTopic: "tvarearuce"
   }, {
     img: "fotky/elena pliestikova.JPG",
-    enHeading: "My aunt Elena",
+    enHeading: "Moje aunt Elena",
     czHeading: "Moje teta Elena",
     subTopic: "tvarearuce"
   }, {
@@ -34,9 +34,9 @@ export const photos = [
   }, {
     img: "fotky/torkild grosbøll.jpg",
     enHeading: "Torkild Grosbøll",
-    enText: "The priest.",
+    enText: "Priest.",
     czHeading: "Torkild Grosbøll",
-    czText: "Duchovní.",
+    czText: "Duchovník.",
     subTopic: "tvarearuce"
   }, {
     img: "fotky/ukul miro.JPG",
@@ -468,7 +468,7 @@ export const photos = [
     img: "fotky/fuck 6.jpg",
     subTopic: "hudba"
   }, {
-    img: "fotky/fuck 7.jpg",
+    img: "fotky/fuck 7.jpg", // #100
     subTopic: "hudba"
   }, {
     img: "fotky/fuck 8.jpg",
@@ -536,9 +536,9 @@ const renderPhotos = () => {
   photos.forEach((photo, index) => {
     const html = `
       <div class="artwork">
-        <img src="${photo.img}" id="img-${String(index).padStart(2,"0")}" loading="lazy"></img>
-        <h4 id="h-${String(index).padStart(2,"0")}">${(photo.czHeading) ? (localStorage.getItem("lang") === "en") ? photo.enHeading : photo.czHeading : ""}</h4>
-        <p id="p-${String(index).padStart(2,"0")}">${(photo.czText) ? (localStorage.getItem("lang") === "en") ? photo.enText : photo.czText : ""}</p>
+        <img src="${photo.img}" id="img-${String(index).padStart(3,"0")}" loading="lazy"></img> 
+        <h4 id="h-${String(index).padStart(3,"0")}">${(photo.czHeading) ? (localStorage.getItem("lang") === "en") ? photo.enHeading : photo.czHeading : ""}</h4>
+        <p id="p-${String(index).padStart(3,"0")}">${(photo.czText) ? (localStorage.getItem("lang") === "en") ? photo.enText : photo.czText : ""}</p>
       </div>`;
     if (photo.subTopic === "tvarearuce") {
       tvarearuceCon.innerHTML += html;
